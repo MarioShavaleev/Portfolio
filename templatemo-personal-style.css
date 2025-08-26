@@ -783,21 +783,10 @@ https://templatemo.com/tm-593-personal-shape
         }
 
         .portfolio-item:nth-child(3) .portfolio-image {
-            background-image: url('images/curved-display-pinky-girl.jpg');
+            background-image: url('images/Store.jpg');
         }
 
-        .portfolio-item:nth-child(4) .portfolio-image {
-            background-image: url('images/dashboard-interfaces-transparent-displays.jpg');
-        }
-
-        .portfolio-item:nth-child(5) .portfolio-image {
-            background-image: url('images/marketing-strategy-women.jpg');
-        }
-
-        .portfolio-item:nth-child(6) .portfolio-image {
-            background-image: url('images/portfolio-website-girl.jpg');
-        }
-
+        
         .portfolio-image::before {
             content: '';
             position: absolute;
@@ -1307,17 +1296,7 @@ https://templatemo.com/tm-593-personal-shape
         font-size: 14px;
     }
 }
-</style>
-Если вы хотите оставить структуру с тегом <button>, вот вариант:
 
-html
-<a href="https://github.com/MarioShavaleev/django-potancyem" class="github-link">
-    <button type="button" class="github-btn">
-        Ссылка на репозиторий GitHub
-    </button>
-</a>
-
-<style>
 .github-link {
     text-decoration: none;
 }
